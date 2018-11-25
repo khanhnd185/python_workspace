@@ -1,0 +1,27 @@
+0. Syntax is a bit different from C
+	print: use + to bind string together, keyword argument (sep,end), only string is valid, can use many argument
+	for: index variable is from a list, range
+	use colon
+
+
+1. Global and local variable in Python
+- Cannot use a local variables before assigning it to some value
+
+
+2. Indented block in Python
+
+
+3. None return (like void in C)
+
+
+4. Keyword argument (like ___ in C++)
+
+
+5. Constant and Type
+Boolean: True and False
+String, Float and Int are 3 common type in Python
+
+
+6. List name: seem like (be carefull when assign a list)
+ String is a list. Except list is a mutable type, bun string is a immutable type. (immutable: their values cannot be modified, appended or removed)
+ Distinguish: replace element and replace entire

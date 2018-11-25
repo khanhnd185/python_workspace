@@ -1,0 +1,5 @@
+print('Say hi to Bob\'s mother')
+print('This is \nnew line character')
+print('This is \ttab character')
+print('This is \"double quote')
+print('This is \\backslash')
