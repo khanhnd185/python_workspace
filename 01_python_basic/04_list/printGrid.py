@@ -1,0 +1,21 @@
+def printGrid(grid):
+	print("Print Grid")
+	for y in range(0,len(grid[0])):
+		for x in range(0,len(grid)):
+			print(grid[x][y],end='')
+		print('\n')
+	
+	
+	
+heartGrid = [['.', '.', '.', '.', '.', '.'],
+             ['.', 'O', 'O', '.', '.', '.'],
+             ['O', 'O', 'O', 'O', '.', '.'],
+             ['O', 'O', 'O', 'O', 'O', '.'],
+             ['.', 'O', 'O', 'O', 'O', 'O'],
+             ['O', 'O', 'O', 'O', 'O', '.'],
+             ['O', 'O', 'O', 'O', '.', '.'],
+             ['.', 'O', 'O', '.', '.', '.'],
+             ['.', '.', '.', '.', '.', '.']]
+
+
+printGrid(heartGrid)
