@@ -25,3 +25,9 @@ String, Float and Int are 3 common type in Python
 6. List name: seem like (be carefull when assign a list)
  String is a list. Except list is a mutable type, bun string is a immutable type. (immutable: their values cannot be modified, appended or removed)
  Distinguish: replace element and replace entire
+
+7. A function cannot empty, if empty, use pass
+
+8. If a list is empty (eg: emptyList = []), we cannot access to its element by emptyList[0] = 1
+
+9. Regex: search method returns a match object, findalll method returns a list
